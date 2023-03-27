@@ -1,0 +1,10 @@
+(i)
+Es wird immer die Methode aufgerufen zu dem der / die Datentyp/en der Parameter passen (überladung).
+
+
+(ii)
+Es ist möglich, wenn man die Reihenfolge der Parameter ändert.
+
+
+(iii)
+Die int variable wird nicht verändert (Primitiver Datentyp) das int Array aber schon da es ein Referenztyp ist

@@ -1,0 +1,54 @@
+a)
+Ausdruck: 5 * 7 / 3
+Wert: 11
+Typ: Int
+Begründung: Wenn man zwei Integer dividiert / multipliziert wird der Rest entfernt und es bleibt Int.
+
+
+b)
+Ausdruck: 1 << 8 % 3
+Wert: 4 (0b100)
+Typ: Int
+Begründung: modulo hat präzedenz über links shift und Int wird nicht verändert von beiden Operationen.
+
+
+c)
+Ausdruck: (short) Integer.MAX_VALUE
+Wert: -1 (0b1111111111111111)
+Typ: short
+Begründung: bei casting auf short nur 16 letzte Bits (0b1111111111111111) im Zweierkomplement -1.
+
+
+d)
+Ausdruck: 23 / (double) 11
+Wert: 2.090909090909091
+Typ: double
+Begründung: cast 11 to double, implizite typumwandlung von 23 zu double
+
+
+e)
+Ausdruck: (double) (23/11)
+Wert: 2.0
+Typ: double
+Begründung: Als erstes zwei Int division also ohne Rest, dann cast auf double.
+
+
+f)
+Ausdruck: 42f
+Wert: 42
+Typ: float
+Begründung: f nach der Zahl macht es zu float
+
+
+g)
+Ausdruck: 4e3D
+Wert: 4000.0
+Typ: double
+Begründung: double wegen D, 4e3 ist 4 * 10^3.
+
+
+h)
+Ausdruck: 0.1f == 0.1
+Wert: false
+Typ: boolean
+Begründung: False, weil 0.1 in float und double nicht exakt dargestellt wird.
